@@ -8,11 +8,24 @@ Many AV setups mean that if you are using PDF slides you cannot have 'next slide
 
 ## Usage
 
+#### For single files
+
 Running:
 
 `python convert.py example.pdf`
 
 Will produce `example.pptx` in the same folder.
+
+#### For multiple files
+
+go to the directory and execute the shell script
+
+```shell
+cd YOUR_TARGET_PATH
+./batchConvert.sh
+```
+
+It will automatically execute convert.py for all the pdf file under that directory.
 
 ## Dependencies
 
